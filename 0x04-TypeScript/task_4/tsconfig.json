@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "paths": {
+      "interface": ["./js/interface"]
+    }
+  },
+  "include": [
+    "./js/**/*.ts"                          
+  ],
+  "exclude": [
+    "node_modules" 
+  ]
+}
